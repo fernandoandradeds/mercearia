@@ -1,0 +1,32 @@
+# ===== Ambientes virtuais =====
+venv/
+.venv/
+ENV/
+env/
+
+# ===== Cache do Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# ===== Arquivos temporários =====
+*.tmp
+*.swp
+*.swo
+
+# ===== Configurações locais =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== Arquivos do sistema =====
+.DS_Store
+Thumbs.db
+
+# ===== Arquivos de build =====
+*.egg-info/
+dist/
+build/
